@@ -1,0 +1,11 @@
+Bootsrap
+-> fontawsome.css for icons
+->bootsrap.css
+->mdb.css
+->
+style.css
+-> npm i mdbootstarp
+->npm i @fortawsome/fontawsome-free
+
+-> configure the files in 'index.js'
+-> configure index.html by link

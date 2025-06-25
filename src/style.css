@@ -1,0 +1,56 @@
+/* Primary Button */
+.btn-primary, .bg-primary {
+    background: linear-gradient(45deg, black, blueviolet) !important;
+    border: none;
+    color: white !important;
+}
+
+/* Success Button */
+.btn-success, .bg-success {
+    background: linear-gradient(45deg, #004d00 30%, #00ff7f 100%) !important;
+    border: none;
+    color: white !important;
+}
+
+/* Danger Button */
+.btn-danger, .bg-danger {
+    background: linear-gradient(45deg, #8b0000, #ff6347) !important;
+    border: none;
+    color: white !important;
+}
+
+/* Warning Button */
+.btn-warning, .bg-warning {
+    background: linear-gradient(45deg, #ff8c00, #ffd700) !important;
+    border: none;
+    color: black !important;
+}
+
+/* Info Button */
+.btn-info, .bg-info {
+    background: linear-gradient(45deg, #00bcd4, #1e90ff) !important;
+    border: none;
+    color: white !important;
+}
+/* Dark Button */
+.btn-dark, .bg-dark {
+    background: linear-gradient(45deg, #2f2f2f, #000000) !important;
+    border: none;
+    color: white !important;
+}
+/* Secondary Button: Richer gradient */
+.btn-secondary, .bg-secondary {
+    background: linear-gradient(45deg, #3a3a3a 30%, #808080 100%);
+    border: none;
+    color: white;
+}
+
+/* Light Button */
+.btn-light, .bg-light {
+    background: linear-gradient(45deg, #ffffff, #f0f0f0) !important;
+    border: none;
+    color: black !important;
+}
+.contact-img{
+    margin-top: -30px;
+}
