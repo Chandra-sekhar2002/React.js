@@ -39,10 +39,11 @@
     color: white !important;
 }
 /* Secondary Button: Richer gradient */
+
 .btn-secondary, .bg-secondary {
-    background: linear-gradient(45deg, #3a3a3a 30%, #808080 100%);
+    background: linear-gradient(45deg, black, #800040) !important;
     border: none;
-    color: white;
+    color: white !important;
 }
 
 /* Light Button */

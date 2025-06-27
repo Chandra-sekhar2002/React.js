@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import ContactApp from "./Components/ContactApp";
+import GithubProfileSearch from "./components/GithubProfileSearch";
 
 class App extends React.Component {
     constructor(props) {
@@ -12,7 +12,8 @@ class App extends React.Component {
                 <nav className="navbar navbar-dark navbar-expand bg-primary">
                     <a href="/" className="navbar-brand">Contact App With React</a>
                 </nav>
-                <ContactApp/>
+                <GithubProfileSearch />
+
                 <div style={{marginBottom:'200px'}}/>
             </React.Fragment>
         )
