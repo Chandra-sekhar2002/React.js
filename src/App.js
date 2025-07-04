@@ -1,22 +1,22 @@
-import React from "react";
-import './App.css';
-import GithubProfileSearch from "./components/GithubProfileSearch";
+import React from 'react';
+import './App.css'
+import ContactApp from "./components/ContactApp";
 
-class App extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    render() {
-        return (
-            <React.Fragment>
-                <nav className="navbar navbar-dark navbar-expand bg-primary">
-                    <a href="/" className="navbar-brand">Contact App With React</a>
-                </nav>
-                <GithubProfileSearch />
+let App = (props) => {
 
-                <div style={{marginBottom:'200px'}}/>
-            </React.Fragment>
-        )
-    }
+    return (
+        <React.Fragment>
+            <nav className="navbar navbar-dark bg-dark navbar-expand-sm" >
+                <div className="container">
+                    <a className="navbar-brand" href="/">React hooks with component interaction</a>
+                </div>
+            </nav>
+            <ContactApp/>
+
+
+            <div style={{marginBottom:'200px'}}/>
+
+        </React.Fragment>
+    )
 }
 export default App;
